@@ -34,7 +34,7 @@ transform_coordinates <- function(
 #' @export
 get_metadata <- function(
   seu_obj, 
-  reductions = "umap", 
+  reductions = "tsne", 
   coord_scale = 0.8, 
   color
   ){
